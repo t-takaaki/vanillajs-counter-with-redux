@@ -22,15 +22,15 @@ store.subscribe(() => {
 
 const plus = document.getElementById("plus");
 plus.addEventListener("click", () => {
-  store.dispatch({ type: 'increment' });
+  store.dispatch({ type: 'increment' })
 });
 
 const minus = document.getElementById("minus");
 minus.addEventListener("click", () => {
-  store.dispatch({ type: 'decrement' });
+  store.dispatch({ type: 'decrement' })
 });
 
 const reset = document.getElementById("reset");
 reset.addEventListener("click", () => {
-  store.dispatch({ type: 'reset' });
+  store.dispatch({ type: 'reset' })
 });
